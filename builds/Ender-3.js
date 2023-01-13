@@ -21,8 +21,8 @@ module.exports = {
     },
     configuration_adv: {
       enable: [
-  ["NOZZLE_TO_PROBE_OFFSET", [0, 0, 0]]
-  //output => #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }
+        "LCD_BED_TRAMMING",
+        "BED_TRAMMING_INCLUDE_CENTER"
 ],
         disable: []
     }
