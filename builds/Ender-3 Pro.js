@@ -18,11 +18,8 @@ module.exports = {
             "BED_TRAMMING_INCLUDE_CENTER"
         ],
         disable: [
-          // Show the bitmap in Marlin/_Bootscreen.h on startup.
-                    "SHOW_CUSTOM_BOOTSCREEN"
-                    // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
-                    "CUSTOM_STATUS_SCREEN_IMAGE"
-        ]
+    "SHOW_CUSTOM_BOOTSCREEN"
+]
     },
     configuration_adv: {
       enable: [
