@@ -7,7 +7,7 @@ module.exports = {
     },
     based_on: {
         repo: "https://github.com/MarlinFirmware/Configurations/",
-        path: "/config/examples/Creality/Ender-3%20Pro/CrealityV422/",
+        path: "/config/examples/Creality/Ender-3 Pro/CrealityV422/",
         stable_branch: "release-{{marlin_version}}",
         nightly_branch: "bugfix-2.1.x"
     },
@@ -21,8 +21,7 @@ module.exports = {
     },
     configuration_adv: {
       enable: [
-        "LCD_BED_TRAMMING",
-        "BED_TRAMMING_INCLUDE_CENTER"
+
 ],
         disable: []
     }
