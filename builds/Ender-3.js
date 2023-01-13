@@ -15,7 +15,7 @@ module.exports = {
         enable: [
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
-            "BED_TRAMMING_INCLUDE_CENTER"
+            "BED_TRAMMING_INCLUDE_CENTER" 
         ],
         disable: []
     },
