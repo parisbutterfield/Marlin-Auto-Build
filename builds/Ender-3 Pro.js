@@ -19,6 +19,7 @@ module.exports = {
         ],
         disable: [
     "SHOW_CUSTOM_BOOTSCREEN"
+    "CUSTOM_STATUS_SCREEN_IMAGE"
 ]
     },
     configuration_adv: {
