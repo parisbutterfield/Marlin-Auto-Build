@@ -17,7 +17,7 @@ module.exports = {
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER",
-            "PREHEAT_BEFORE_LEVELING"
+            "PREHEAT_BEFORE_LEVELING",
             ["PREHEAT_1_LABEL", "PLA"]
         ],
         disable: [
