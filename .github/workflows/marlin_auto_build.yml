@@ -4,7 +4,7 @@ on:
   # trigger if we change a build
   push:
     paths:
-      - 'builds/**'
+      - '*'
   # trigger every night at 03:30
   schedule:
     - cron:  '30 3 * * *'
