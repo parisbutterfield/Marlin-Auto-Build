@@ -16,4 +16,4 @@ jobs:
     - uses: zisismaras/marlin_auto_build@v1.0.13
 
 permissions:
-  contents: read
+  contents: write
