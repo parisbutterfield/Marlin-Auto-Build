@@ -10,6 +10,6 @@ jobs:
   create_builds:
     runs-on: ubuntu-latest
     steps:
-    - uses: parisbutterfield/marlin_auto_build@master
+    - uses: zisismaras/marlin_auto_build@master
 
 permissions: write-all
