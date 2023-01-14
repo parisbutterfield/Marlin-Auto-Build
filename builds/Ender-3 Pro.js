@@ -30,9 +30,9 @@ module.exports = {
             ["PREHEAT_2_TEMP_CHAMBER", 35],
             ["PREHEAT_2_FAN_SPEED",   255]
             //["S_CURVE_ACCELERATION"], Breaks build in Marlin-Auto-Build on Git
-            //["INDIVIDUAL_AXIS_HOMING_MENU"]
+            //["INDIVIDUAL_AXIS_HOMING_MENU"],
             //BL Touch changes from https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/
-            //["BLTOUCH"]
+            //["BLTOUCH"],
             //["NOZZLE_TO_PROBE_OFFSET", [10, 10, 0]],
             //["AUTO_BED_LEVELING_UBL"],
             //["RESTORE_LEVELING_AFTER_G28"],
@@ -48,6 +48,13 @@ module.exports = {
     },
     configuration_adv: {
       enable: [
+        //["BLTOUCH_DELAY 500"],
+        //["BLTOUCH_FORCE_SW_MODE"],
+        //["BLTOUCH_HS_MODE"],
+        //["PROBE_OFFSET_WIZARD"],
+        //["PROBE_OFFSET_WIZARD_START_Z -4.0"],
+        //["BABYSTEP_DISPLAY_TOTAL"],
+        //["BABYSTEP_ZPROBE_OFFSET"]
 
 ],
         disable: [          ]
