@@ -48,11 +48,11 @@ module.exports = {
     },
     configuration_adv: {
       enable: [
-        ["BLTOUCH_DELAY 500"],
+        ["BLTOUCH_DELAY", 500"],
         ["BLTOUCH_FORCE_SW_MODE"],
         ["BLTOUCH_HS_MODE"],
         ["PROBE_OFFSET_WIZARD"],
-        ["PROBE_OFFSET_WIZARD_START_Z -4.0"],
+        ["PROBE_OFFSET_WIZARD_START_Z", -4.0],
         ["BABYSTEP_DISPLAY_TOTAL"],
         ["BABYSTEP_ZPROBE_OFFSET"]
 
