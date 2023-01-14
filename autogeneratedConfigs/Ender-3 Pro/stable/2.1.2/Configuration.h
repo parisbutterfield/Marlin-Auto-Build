@@ -83,7 +83,7 @@
 // #define SHOW_CUSTOM_BOOTSCREEN //ORIGINAL: #define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
-#define CUSTOM_STATUS_SCREEN_IMAGE
+// #define CUSTOM_STATUS_SCREEN_IMAGE //ORIGINAL: #define CUSTOM_STATUS_SCREEN_IMAGE
 
 // @section machine
 
@@ -137,7 +137,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-3 Pro V1.5"
+#define CUSTOM_MACHINE_NAME "Ender 3 Pro" //ORIGINAL: #define CUSTOM_MACHINE_NAME "Ender-3 Pro V1.5"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1891,7 +1891,7 @@
 /**
  * Auto-leveling needs preheating
  */
-//#define PREHEAT_BEFORE_LEVELING
+#define PREHEAT_BEFORE_LEVELING //ORIGINAL: //#define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
   #define LEVELING_NOZZLE_TEMP 120   // (°C) Only applies to E0 at this time
   #define LEVELING_BED_TEMP     50
