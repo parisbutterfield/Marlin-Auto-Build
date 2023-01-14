@@ -28,11 +28,11 @@ module.exports = {
             ["PREHEAT_2_TEMP_HOTEND", 235],
             ["PREHEAT_2_TEMP_BED",     70],
             ["PREHEAT_2_TEMP_CHAMBER", 35],
-            ["PREHEAT_2_FAN_SPEED",   255],
+            ["PREHEAT_2_FAN_SPEED",   255]
             //["S_CURVE_ACCELERATION"], Breaks build in Marlin-Auto-Build on Git
             //["INDIVIDUAL_AXIS_HOMING_MENU"]
             //BL Touch changes from https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/
-            ["BLTOUCH"]
+            //["BLTOUCH"]
             //["NOZZLE_TO_PROBE_OFFSET", [10, 10, 0]],
             //["AUTO_BED_LEVELING_UBL"],
             //["RESTORE_LEVELING_AFTER_G28"],
