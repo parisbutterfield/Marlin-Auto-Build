@@ -10,7 +10,7 @@ jobs:
   create_builds:
     runs-on: ubuntu-latest
     steps:
-    - uses: zisismaras/marlin_auto_build@v1.0.13
+    - uses: zisismaras/marlin_auto_build@latest
 
 permissions:
   contents: write
