@@ -33,7 +33,7 @@ module.exports = {
             ["INDIVIDUAL_AXIS_HOMING_MENU"],
             //BL Touch changes from https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/
             ["BLTOUCH"],
-            ["NOZZLE_TO_PROBE_OFFSET", [10, 10, 0]],
+            //["NOZZLE_TO_PROBE_OFFSET", [10, 10, 0]],
             ["AUTO_BED_LEVELING_UBL"],
             ["RESTORE_LEVELING_AFTER_G28"],
             ["Z_SAFE_HOMING"],
