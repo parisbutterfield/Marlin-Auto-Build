@@ -35,6 +35,7 @@ module.exports = {
             ["BLTOUCH"],
             ["NOZZLE_TO_PROBE_OFFSET", [10, 10, 0]],
             ["AUTO_BED_LEVELING_UBL"],
+            ["RESTORE_LEVELING_AFTER_G28"],
             ["Z_SAFE_HOMING"],
             //If you have z-stop and bltouch probe both plugged in, make these changes as well.
             ["Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN"],
