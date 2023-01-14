@@ -13,7 +13,7 @@ module.exports = {
     },
     configuration: {
         enable: [
-            ["CUSTOM_MACHINE_NAME", "Ender 3 Pro"],
+            ["CUSTOM_MACHINE_NAME", "Ender 3 Pro"]
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER"
