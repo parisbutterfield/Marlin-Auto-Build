@@ -12,5 +12,4 @@ jobs:
     steps:
     - uses: parisbutterfield/marlin_auto_build@master
 
-permissions:
-  contents: write
+permissions: read-all|write-all
