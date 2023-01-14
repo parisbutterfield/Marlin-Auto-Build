@@ -28,7 +28,11 @@ module.exports = {
             ["PREHEAT_2_TEMP_HOTEND", 235],
             ["PREHEAT_2_TEMP_BED",     70],
             ["PREHEAT_2_TEMP_CHAMBER", 35],
-            ["PREHEAT_2_FAN_SPEED",   255]
+            ["PREHEAT_2_FAN_SPEED",   255],
+            ["S_CURVE_ACCELERATION"],
+            ["LEVEL_BED_CORNERS"],
+            ["INDIVIDUAL_AXIS_HOMING_MENU"]
+
         ],
         disable: [
     "SHOW_CUSTOM_BOOTSCREEN",
