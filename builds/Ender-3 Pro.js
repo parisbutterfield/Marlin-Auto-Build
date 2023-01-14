@@ -18,8 +18,7 @@ module.exports = {
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER",
             "PREHEAT_BEFORE_LEVELING"
-            ["PREHEAT_1_LABEL", PLA]
-
+            ["PREHEAT_1_LABEL", "PLA"]
         ],
         disable: [
     "SHOW_CUSTOM_BOOTSCREEN",
