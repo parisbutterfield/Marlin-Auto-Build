@@ -3,12 +3,9 @@ name: marlin_auto_build
 on:
   # trigger if we change a build
   push:
-    paths:
-      - '*'
-  # trigger every night at 03:30
-  schedule:
-    - cron:  '30 3 * * *'
-
+    branches: [ "main" ]
+    
+    
 jobs:
   create_builds:
     runs-on: ubuntu-latest
