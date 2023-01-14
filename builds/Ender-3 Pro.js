@@ -19,15 +19,7 @@ module.exports = {
             "BED_TRAMMING_INCLUDE_CENTER",
             "PREHEAT_BEFORE_LEVELING"
             ["PREHEAT_1_LABEL", "PLA"],
-            ["PREHEAT_1_TEMP_HOTEND", 200],
-            ["PREHEAT_1_TEMP_BED", 60],
-            ["PREHEAT_1_TEMP_CHAMBER", 35],
-            ["PREHEAT_1_FAN_SPEED", 255], // Value from 0 to 255
-            ["PREHEAT_2_LABEL", "PETG"],
-            ["PREHEAT_2_TEMP_HOTEND", 235],
-            ["PREHEAT_2_TEMP_BED", 70],
-            ["PREHEAT_2_TEMP_CHAMBER", 35],
-            ["PREHEAT_2_FAN_SPEED", 255] // Value from 0 to 255
+        
         ],
         disable: [
     "SHOW_CUSTOM_BOOTSCREEN",
