@@ -29,8 +29,8 @@ module.exports = {
             ["PREHEAT_2_TEMP_BED",     70],
             ["PREHEAT_2_TEMP_CHAMBER", 35],
             ["PREHEAT_2_FAN_SPEED",   255],
-            ["S_CURVE_ACCELERATION"]
-            //["INDIVIDUAL_AXIS_HOMING_MENU"],
+            ["S_CURVE_ACCELERATION"],
+            ["INDIVIDUAL_AXIS_HOMING_MENU"]
             //BL Touch changes from https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/
             //["BLTOUCH"],
             //["NOZZLE_TO_PROBE_OFFSET", [10, 10, 0]],
